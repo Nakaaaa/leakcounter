@@ -2,7 +2,6 @@
   <div class="container">
     <div class="section">
       <div class="columns is-mobile is-centered">
-        <!-- <div class="column"></div> -->
         <div class="column is-10">
           <h1 class="title has-text-centered">漏れそうカウンター</h1>
           <div class="content has-text-centered">
@@ -69,7 +68,7 @@ export default {
   methods: {
     addCount: function(eventtype) {
       if (eventtype == "leak") {
-        this.leak = this.leak + 1;
+        this.leak++;
         db.collection("unko")
           .doc("jQeYF6Me1VOpBKyjkZLq")
           .update({
@@ -82,8 +81,8 @@ export default {
             console.error(error);
           });
       } else {
-        this.clean = this.clean + 1;
-        this.leak = this.leak - 1;
+        this.clean++;
+        this.leak--;
         db.collection("unko")
           .doc("jQeYF6Me1VOpBKyjkZLq")
           .update({
