@@ -1,22 +1,11 @@
-# unkocounter
+# 漏れそうカウンター
 
-> My bedazzling Nuxt.js project
+漏れそうな人、スッキリした人をカウント、表示するWebアプリです。
 
-## Build Setup
+## 使い方
 
-``` bash
-# install dependencies
-$ yarn install
+1.漏れそうな場合は「漏れそう」ボタンをクリック！
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+2.スッキリした場合は「スッキリした？」ボタンをクリック！
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+3.通勤中に漏れそうな人がこれだけいるんだ～って思ってもらえればOK！
