@@ -107,6 +107,6 @@ export default {
 }
 .backstar {
   background-image: url("../assets/image/kirakira2.png");
-  background-size: 25%;
+  background-size: 35%;
 }
 </style>
